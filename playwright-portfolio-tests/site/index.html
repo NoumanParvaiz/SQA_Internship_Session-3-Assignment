@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nouman Parvaiz — Software Quality Assurance Engineer</title>
+<meta name="description" content="Portfolio of Nouman Parvaiz, Software Quality Assurance Engineer specializing in manual and automated testing, API testing, and quality engineering.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="scrollFill"></div></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">NP</span>
+      <span class="logo-text">Nouman<span class="dim">.spec</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" class="nav-link"><span class="nav-id">01</span>About</a>
+      <a href="#education" class="nav-link"><span class="nav-id">02</span>Education</a>
+      <a href="#skills" class="nav-link"><span class="nav-id">03</span>Skills</a>
+      <a href="#projects" class="nav-link"><span class="nav-id">04</span>Projects</a>
+      <a href="#certifications" class="nav-link"><span class="nav-id">05</span>Certs</a>
+      <a href="#contact" class="nav-link"><span class="nav-id">06</span>Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><i class="fa-solid fa-circle-check"></i> Suite: Career_Profile &nbsp;•&nbsp; Status: <span class="status-pass">PASSING</span></p>
+        <h1>Nouman <span class="hl">Parvaiz</span></h1>
+        <p class="role-title">Software Quality Assurance Engineer</p>
+        <p class="tagline">"Ensuring software quality through effective testing and continuous improvement."</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" id="resumeBtn"><i class="fa-solid fa-arrow-down-to-line"></i> Download Resume</a>
+          <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</span>
+          <span><i class="fa-solid fa-graduation-cap"></i> BS Software Engineering, UCP</span>
+        </div>
+      </div>
+
+      <div class="hero-console" aria-label="Automated test run animation">
+        <div class="console-window">
+          <div class="console-bar">
+            <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-green"></span>
+            <span class="console-title">qa_engineer_profile.spec.js</span>
+          </div>
+          <div class="console-body" id="consoleBody">
+            <p class="console-line prompt">$ npm run test:profile</p>
+          </div>
+        </div>
+        <div class="floating-avatar">
+          <div class="avatar-ring">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <span class="avatar-tag">QA Engineer</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;01 <span class="tc-name">/ ABOUT</span> <span class="badge badge-pass">PASSED</span></p>
+      <h2 class="section-title">Testing software the way it should be tested — thoroughly.</h2>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I'm a Software Engineering graduate from the <strong>University of Central Punjab (UCP)</strong> with a strong passion for Software Quality Assurance and Software Testing. I specialize in manual testing, test automation, defect management, API testing, and quality engineering.</p>
+          <p>I enjoy improving software quality through structured testing methodologies and continuous process improvement. My goal is to build reliable, secure, and user-friendly software while growing as a professional QA Engineer — one test case at a time.</p>
+          <ul class="value-list">
+            <li><i class="fa-solid fa-check"></i> Detail-oriented, methodical approach to test design</li>
+            <li><i class="fa-solid fa-check"></i> Comfortable across manual and automated testing workflows</li>
+            <li><i class="fa-solid fa-check"></i> Continuous-learning mindset — always adding new tools to the suite</li>
+          </ul>
+        </div>
+
+        <div class="assert-card">
+          <p class="assert-title"><i class="fa-solid fa-flask"></i> assert(profile).toMatch(role)</p>
+          <dl class="assert-list">
+            <div><dt>Name</dt><dd>Nouman Parvaiz</dd></div>
+            <div><dt>Role</dt><dd>SQA Engineer</dd></div>
+            <div><dt>Education</dt><dd>BS Software Engineering</dd></div>
+            <div><dt>University</dt><dd>UCP</dd></div>
+            <div><dt>Location</dt><dd>Lahore, Pakistan</dd></div>
+            <div><dt>Focus</dt><dd>Manual + Automation QA</dd></div>
+          </dl>
+          <p class="assert-result"><i class="fa-solid fa-circle-check"></i> 6/6 assertions passed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;02 <span class="tc-name">/ EDUCATION</span> <span class="badge badge-pass">PASSED</span></p>
+      <h2 class="section-title">Academic foundation</h2>
+
+      <div class="edu-card">
+        <div class="edu-head">
+          <div>
+            <h3>Bachelor of Science in Software Engineering</h3>
+            <p class="edu-sub">University of Central Punjab (UCP)</p>
+          </div>
+          <span class="badge badge-outline"><i class="fa-solid fa-circle-check"></i> Completed</span>
+        </div>
+
+        <p class="edu-label">Relevant coursework</p>
+        <div class="coursework-grid">
+          <div class="course-chip"><i class="fa-solid fa-vial"></i> Software Quality Engineering</div>
+          <div class="course-chip"><i class="fa-solid fa-robot"></i> Automated Software Testing</div>
+          <div class="course-chip"><i class="fa-solid fa-list-check"></i> Requirements Engineering</div>
+          <div class="course-chip"><i class="fa-solid fa-diagram-project"></i> Software Design &amp; Architecture</div>
+          <div class="course-chip"><i class="fa-solid fa-people-group"></i> Software Project Management</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;03 <span class="tc-name">/ SKILLS COVERAGE</span> <span class="badge badge-pass">PASSED</span></p>
+      <h2 class="section-title">Test coverage report</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <p class="skill-head"><i class="fa-solid fa-hand-pointer"></i> Manual Testing</p>
+          <ul class="skill-tags">
+            <li>Functional Testing</li>
+            <li>Regression Testing</li>
+            <li>Smoke Testing</li>
+            <li>Integration Testing</li>
+            <li>System Testing</li>
+            <li>UAT</li>
+          </ul>
+          <div class="coverage-bar"><div class="coverage-fill" data-fill="95"></div></div>
+          <span class="coverage-label">95% coverage</span>
+        </div>
+
+        <div class="skill-card">
+          <p class="skill-head"><i class="fa-solid fa-gears"></i> Automation Testing</p>
+          <ul class="skill-tags">
+            <li>Selenium WebDriver</li>
+            <li>TestNG</li>
+            <li>JUnit</li>
+            <li>REST API Testing</li>
+            <li>Postman</li>
+          </ul>
+          <div class="coverage-bar"><div class="coverage-fill" data-fill="88"></div></div>
+          <span class="coverage-label">88% coverage</span>
+        </div>
+
+        <div class="skill-card">
+          <p class="skill-head"><i class="fa-solid fa-code"></i> Programming</p>
+          <ul class="skill-tags">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>C++</li>
+          </ul>
+          <div class="coverage-bar"><div class="coverage-fill" data-fill="80"></div></div>
+          <span class="coverage-label">80% coverage</span>
+        </div>
+
+        <div class="skill-card">
+          <p class="skill-head"><i class="fa-solid fa-toolbox"></i> Tools</p>
+          <ul class="skill-tags">
+            <li>Jira</li>
+            <li>Bugzilla</li>
+            <li>Git &amp; GitHub</li>
+            <li>MySQL</li>
+            <li>Trello</li>
+            <li>Chrome DevTools</li>
+            <li>IntelliJ IDEA</li>
+            <li>VS Code</li>
+          </ul>
+          <div class="coverage-bar"><div class="coverage-fill" data-fill="92"></div></div>
+          <span class="coverage-label">92% coverage</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;04 <span class="tc-name">/ PROJECTS</span> <span class="badge badge-pass">PASSED</span></p>
+      <h2 class="section-title">Execution reports</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-robot project-icon"></i>
+            <span class="badge badge-pass">Build Passing</span>
+          </div>
+          <h3>Automated Testing Framework</h3>
+          <p>Built an automation framework using Selenium WebDriver and TestNG, with data-driven testing and generated execution reports that reduced manual testing effort.</p>
+          <ul class="project-log">
+            <li><i class="fa-solid fa-check"></i> Selenium WebDriver + TestNG framework design</li>
+            <li><i class="fa-solid fa-check"></i> Data-driven test execution</li>
+            <li><i class="fa-solid fa-check"></i> Automated HTML execution reports</li>
+            <li><i class="fa-solid fa-check"></i> Reduced manual regression effort</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <i class="fa-solid fa-bug project-icon"></i>
+            <span class="badge badge-pass">Build Passing</span>
+          </div>
+          <h3>Web Application Testing</h3>
+          <p>Designed comprehensive test cases and performed functional and regression testing across manual and automated workflows, tracking defects through resolution.</p>
+          <ul class="project-log">
+            <li><i class="fa-solid fa-check"></i> Comprehensive test case design</li>
+            <li><i class="fa-solid fa-check"></i> Functional &amp; regression test cycles</li>
+            <li><i class="fa-solid fa-check"></i> Manual + automated execution</li>
+            <li><i class="fa-solid fa-check"></i> Defect logging &amp; tracking</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;05 <span class="tc-name">/ CERTIFICATIONS</span> <span class="badge badge-pass">PASSED</span></p>
+      <h2 class="section-title">Verified credentials</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fa-solid fa-award"></i>
+          <h3>Selenium Automation Testing</h3>
+          <span class="badge badge-pass">Verified</span>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-award"></i>
+          <h3>Software Testing Fundamentals</h3>
+          <span class="badge badge-pass">Verified</span>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-award"></i>
+          <h3>Agile Testing</h3>
+          <span class="badge badge-pass">Verified</span>
+        </div>
+        <div class="cert-card cert-pending">
+          <i class="fa-solid fa-hourglass-half"></i>
+          <h3>ISTQB Foundation Level</h3>
+          <span class="badge badge-pending">In Progress</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBJECTIVE -->
+  <section class="objective">
+    <div class="container">
+      <p class="tc-eyebrow tc-eyebrow-dark">TC&#8209;00 <span class="tc-name">/ CAREER OBJECTIVE</span></p>
+      <blockquote>
+        "My objective is to become an expert Software Quality Assurance Engineer specializing in test automation, quality engineering, and software process improvement while contributing to the development of reliable, secure, and high-performing software products."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="tc-eyebrow">TC&#8209;06 <span class="tc-name">/ CONTACT</span> <span class="badge badge-pass">READY</span></p>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="section-sub">Open to internships and full-time QA opportunities. Reach out through any channel below.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:nouman.parvaiz@example.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">nouman.parvaiz@example.com</span>
+        </a>
+        <a href="tel:+923000000000" class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+92 300 0000000</span>
+        </a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">/in/noumanparvaiz</span>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">/noumanparvaiz</span>
+        </a>
+        <div class="contact-card contact-card-static">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Lahore, Pakistan</span>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <p class="edu-label">Or send a message directly</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="nameInput">Full Name</label>
+            <input type="text" id="nameInput" name="name" placeholder="e.g. Ayesha Khan" autocomplete="name">
+            <span class="field-error" id="nameError" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="emailInput">Email</label>
+            <input type="email" id="emailInput" name="email" placeholder="e.g. you@example.com" autocomplete="email">
+            <span class="field-error" id="emailError" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="messageInput">Message</label>
+            <textarea id="messageInput" name="message" rows="4" placeholder="How can I help?"></textarea>
+            <span class="field-error" id="messageError" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="submitBtn">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+
+          <p class="form-success" id="formSuccess" role="status" hidden>
+            <i class="fa-solid fa-circle-check"></i> Thanks! Your message has been received.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-log">
+      <p class="footer-line"><span class="ok">✓</span> 6 suites passed, 0 failed</p>
+      <p class="footer-line footer-build">BUILD PASSED — © 2026 Nouman Parvaiz</p>
+      <p class="footer-line footer-role">Software Quality Assurance Engineer Portfolio</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://linkedin.com/in/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:nouman.parvaiz@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="footer-credit">Designed with HTML, CSS &amp; JavaScript</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
