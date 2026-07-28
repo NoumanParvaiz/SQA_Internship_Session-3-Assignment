@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-cypress-tests",
+  "version": "1.0.0",
+  "description": "Cypress automation test suite for Nouman Parvaiz's QA portfolio website — used to compare Cypress with the existing Playwright suite",
+  "scripts": {
+    "start": "http-server ./site -p 4173 -c-1",
+    "cy:open": "cypress open --browser chrome",
+    "cy:run": "cypress run",
+    "test": "start-server-and-test start http://localhost:4173 cy:run",
+    "test:open": "start-server-and-test start http://localhost:4173 cy:open"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "http-server": "^14.1.1",
+    "start-server-and-test": "^2.0.8"
+  }
+}
